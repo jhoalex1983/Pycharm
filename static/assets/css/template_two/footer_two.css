@@ -1,0 +1,17 @@
+.gov-co-footer .gov-co-footer-presetacion,
+.gov-co-footer-lg .gov-co-footer-presetacion,
+.gov-co-footer-sm .gov-co-footer-presetacion,
+.gov-co-footer-xl .gov-co-footer-presetacion,
+.gov-co-footer-xs .gov-co-footer-presetacion {
+   position: relative;
+   display: -webkit-box;
+   display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   flex-flow: row wrap;
+   -webkit-box-pack: center;
+   justify-content: space-between;
+   align-content: space-between;
+   background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(15%,#fff),color-stop(15%,#e6effd),color-stop(85%,#e6effd),color-stop(85%,#e6effd));
+    background-image: linear-gradient(to bottom,#fff,#fff 15%,#069169 15%,#069169  85%,#069169  85%);
+}

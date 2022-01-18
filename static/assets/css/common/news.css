@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+# News Board
+--------------------------------------------------------------*/
+.sidebar{
+    background-color: #36c;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+    height: 470px;
+}
+li a{
+    color: white;
+}
+ul{
+    list-style-type:square;
+    list-style-position: outside;
+}
+.img-inside-text{
+    text-align: center;
+    padding-top: 20px;
+}
+.text-img{
+    background-color: #f0f0f0b0;
+    padding:10px;
+    position: absolute;
+
+}
+
+.card-menu{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+.card {
+    height: 250px;
+    width: 200px;
+    margin: auto;
+}
