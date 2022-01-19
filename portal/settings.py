@@ -21,8 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SITE_ID = 1
 X_FRAME_OPTIONS = "SAMEORIGIN"
 CMS_TEMPLATES = [
-    ('home.html', 'Home page template'),
-    ('template_one.html', 'Template One')
+    ('home.html', 'Home page template')
 ]
 
 # Load project vars from local vars
