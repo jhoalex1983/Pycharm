@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SITE_ID = 1
 X_FRAME_OPTIONS = "SAMEORIGIN"
 CMS_TEMPLATES = [
-    ('home.html', 'Home page template')
+    ('home.html', 'Home page templates')
 ]
 
 # Load project vars from local vars
@@ -88,7 +88,8 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            os.path.join(BASE_DIR, "templates")
+            os.path.join(BASE_DIR, "templates"),
+            os.path.join(BASE_DIR, "static"),
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -170,6 +171,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = "/static/"
+STATICFILES_DIRS = [
+
+    os.path.join(BASE_DIR, 'static'),
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
