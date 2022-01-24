@@ -1,0 +1,21 @@
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+<header id="header" class="d-flex align-items-center">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+          <div class="navbar-brand ">
+              <a class="" href="#">
+                  <img class="" src="{% static 'assets/img/cam_logo.png' %}"
+                       alt="" width="120" height="60"></a>
+              <a class="" href="#">
+                  <img class="" src="{% static 'assets/img/huila.png' %}"
+                       alt="" width="120" height="60"></a>
+          </div>
+          <div class="nabvar-nav">
+            {% include 'common/dropdown_menu.html' %}
+          </div>
+    </div>
+
+  </nav>
+</header><!-- End Header -->
+

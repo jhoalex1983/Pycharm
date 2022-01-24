@@ -28,14 +28,11 @@
         {% placeholder "content" %}
         <section>
             {% include 'common/topbar.html' %}
-            <div class="bg-success" style="height: 20px;"></div>
+            <div class="bg-success" style="height: 15px;"></div>
         </section>
 
         <!-- ======= Header ======= -->
-        <header id="header" class="d-flex align-items-center">
-            <img class="img-fluid gov-co-logo-cam" src="{% static 'assets/img/cam_logo.png' %}" alt="Imagen logo" srcset="" />
-            {% include 'common/dropdown_menu.html' %}
-        </header><!-- End Header -->
+        {% include 'common/header.html' %}
 
         <section>
             {% include 'common/news.html' %}
