@@ -1,0 +1,59 @@
+.barra-superior-govco{
+  background-color: #3366cc;
+  height: 48px;
+  }
+  .icon-barra-superior-govco{
+    content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
+    height: 24px;
+    width: 136px;
+  }
+  .icon-barra-superior-govco:focus{
+    content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
+    height: 28px;
+    width: 136px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+  }
+  .barra-superior-govco.centrar-logo .container-fluid {
+    padding: 0;
+  }
+  .icon-barra-superior-idioma::after{
+    content: url(https://cdn.www.gov.co/v4/assets/images/btn-idioma.svg);
+    height: 24px;
+    width: 24px;
+    display: block;
+    transition: all 300ms;
+  }
+  .icon-barra-superior-idioma:hover::after{
+    content: url(https://cdn.www.gov.co/v4/assets/images/btn-idioma-hover.svg);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    display: block;
+    transition: all 300ms;
+  }
+  .icon-barra-superior-idioma:focus{
+    height: 38px;
+    width: 38px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 300ms;
+  }
+
+  button[class^="icon-barra-superior-idioma"] {
+    padding: 1px 6px;
+    color: none;
+    background: none;
+    border: none;
+    -webkit-appearance: none;
+    align-items: none;
+  }
+
+@media (max-width: 920px) {
+  .barra-superior-govco a{
+    margin-right: auto!important;
+    margin-left: auto!important;
+    display: block!important;
+  }
+}
