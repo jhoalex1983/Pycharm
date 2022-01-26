@@ -76,3 +76,13 @@
     margin: 0 auto;
     color: #fff;
 }
+.bg-gov-base {
+    background-color: #0D47A1;
+}
+
+.bb-dark-success-gov {
+    border-bottom: 3px solid #069169;
+}
+.bt-dark-success-gov {
+    border-top: 3px solid #069169;
+}
